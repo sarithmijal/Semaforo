@@ -1,19 +1,19 @@
-### Semáforo (Arduino)
+### Traffic light (Arduino)
 <p>
-Este código en Arduino configura un semáforo de tres luces (rojo, amarillo y verde) utilizando LEDs conectados a los pines 10, 9 y 8 de la placa. El funcionamiento del semáforo sigue un ciclo específico en el bucle loop(), donde cada luz permanece encendida durante 2 segundos antes de cambiar a la siguiente:
+This Arduino code sets up a three-light traffic signal (red, yellow, and green) using LEDs connected to pins 10, 9, and 8 on the board. The traffic signal operates in a specific cycle within the loop() function, where each light stays on for 2 seconds before switching to the next:
 </p>
 
 
-- Primero, enciende el LED rojo y apaga los demás.
-- Luego, apaga el LED rojo y enciende el LED verde.
-- Después, apaga el LED verde y enciende el LED amarillo.
-- El ciclo se repite.
+- Initially, it turns on the red LED and turns off the others.
+- Then, it turns off the red LED and turns on the green LED.
+- Afterward, it turns off the green LED and turns on the yellow LED.
+- The cycle repeats.
 <p>
-Este código es básico y establece un ciclo de funcionamiento para simular un semáforo básico. Cada luz permanece encendida durante el mismo tiempo antes de cambiar a la siguiente, creando una secuencia de cambio de luces similar a un semáforo de tráfico estándar.
+This code is basic, establishing a sequence of operation to simulate a simple traffic light. Each light remains on for an equal duration before transitioning to the next, creating a sequential light change similar to a standard traffic signal.
 
-Puedes conectar LEDs a los pines 10, 9 y 8 de tu placa Arduino para ver el funcionamiento del semáforo con este código. Además, si deseas añadir funcionalidades extras como botones para simular un semáforo real, modificar los tiempos de espera o implementar otras características, se pueden agregar al código existente.
+You can connect LEDs to pins 10, 9, and 8 on your Arduino board to observe the traffic light operation using this code. Moreover, if you want to add extra features like buttons to simulate a real traffic light, adjust the waiting times, or implement other functionalities, you can expand upon this existing code.
 </p>
 
-**Integrantes:**
+**Members:**
 - Sarith Chamorro
 - Jefferson Viracucha
